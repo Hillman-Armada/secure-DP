@@ -1,0 +1,18 @@
+{
+    "functions": {
+        "src/app/page.tsx": {
+            "memory": 3009,
+            "maxDuration": 30
+        }
+    },
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "build"
+        }
+      }
+    ]
+}
+  
