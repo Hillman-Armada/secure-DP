@@ -9,10 +9,6 @@ const nextConfig = {
     ],
   },
   output: 'standalone',
-  experimental: {
-    appDir: true,
-  },
-  distDir: '.next',
 };
 
 module.exports = nextConfig;
